@@ -1,0 +1,45 @@
+{
+  "emailAddress": "john.doe@example.com",
+  "password": "SecurePassword123",
+  "profilePic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStRyyzZ9Juf1QAxSaVAyODm3J66lS1UspSuQ&usqp=CAU",
+  "bio": "Hi, I'm John Doe, a fitness enthusiast.",
+  "otp": "123456",
+  "schemaVersion": "1.1",
+  "fitness": {
+    "exercises": [
+      {
+        "exerciseName": "Running",
+        "exerciseDuration": 20
+      },
+      {
+        "exerciseName": "Cycling",
+        "exerciseDuration": 30
+      }
+    ],
+    "foodTracking": [
+      {
+        "foodName": "Banana",
+        "calories": 100,
+        "protein": 1,
+        "carbohydrates": 27,
+        "fat": 0.2
+      },
+      {
+        "foodName": "Chicken Breast",
+        "calories": 165,
+        "protein": 31,
+        "carbohydrates": 0,
+        "fat": 3.6
+      }
+    ],
+    "goalTracking": [
+      {
+        "goalName": "Lose Weight",
+        "goalDescription": "Lose 5kg in 2 months",
+        "targetDate": "2023-12-31T00:00:00.000Z",
+        "targetCaloriesValue": 2000,
+        "status": "In Progress"
+      }
+    ]
+  }
+}
